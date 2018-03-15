@@ -13,12 +13,16 @@ app.get('/', (req, res) => {
 	});
 });
 app.get('/about', (req, res) => {
-  res.send("This is what we're all about");
+  res.render('site/about', {
+		about: 'This is who we are'
+	});
+});
+app.get('/contact', (req, res) => {
+  res.render('site/contact', {
+		title: 'contact us now please'
+	});
 });
 
-app.get('/about', (req, res) => {
-  res.send("what we're all about");
-});
 
 
 app.listen(PORT, () => {
