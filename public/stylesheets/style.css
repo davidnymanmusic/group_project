@@ -40,3 +40,15 @@ color: rgb(51, 61, 106);
 h1 {
 	text-align: center;
 }
+
+#footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: rgb(51, 61, 106);
+	text-align: center;
+	padding: 3%;
+	background-color: rgb(244, 244, 244);
+	border-top: 3px solid rgb(60, 73, 120);
+}
