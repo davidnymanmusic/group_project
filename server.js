@@ -4,7 +4,12 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Group project with david');
+  res.render('site/index', {
+		title: 'GROUP PROJECT WITH D&D'
+	});
+});
+app.get('/about', (req, res) => {
+  res.send("This is what we're all about");
 });
 
 app.get('/about', (req, res) => {
@@ -16,4 +21,3 @@ app.listen(PORT, () => {
   // eslint-disable-next-line no-console
   console.log(`Running on ${PORT}`);
 });
-
