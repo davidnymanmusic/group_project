@@ -8,7 +8,8 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
+  // eslint-disable-next-line no-console
   console.log(`Running on ${PORT}`);
 });
 
-// eslint-disable-next-line no-console
+
