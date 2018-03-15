@@ -52,3 +52,28 @@ h1 {
 	background-color: rgb(244, 244, 244);
 	border-top: 3px solid rgb(60, 73, 120);
 }
+
+.forms{
+	font-size: 1.3em;
+	margin: auto 0;
+	width: auto;
+}
+
+input {
+	height: 2em;
+	width: 18em;
+	font-size: 1em;
+}
+
+input[type='submit']{
+	color: rgb(51, 61, 106);
+	transition: .1s;
+}
+input[type='submit']:focus{
+	outline: none;
+}
+input[type='submit']:active{
+	background-color: rgb(51, 61, 106);
+	color: rgb(250, 250, 250);
+	transition: .1s;
+}
