@@ -22,6 +22,11 @@ app.get('/contact', (req, res) => {
 		title: 'contact us now please'
 	});
 });
+app.get('/forms', (req, res) => {
+  res.render('site/forms', {
+		title: 'sign up'
+	});
+});
 
 
 

@@ -5,25 +5,28 @@
   <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
   <meta charset="utf-8" />
   <title>
-    <%= about %>
+    <%= title %>
   </title>
 
   <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 
 <body>
-  <div class="nav">
+	<div class="nav">
 		<li><a href="/">Home</a></li>
 		<li><a href="/about">About</a></li>
 		<li><a href="/contact">Contact</a></li>
     <li><a href="/forms">Forms</a></li>
 
 	</div>
-
-  <h1><span><%= about %></span></h1>
-	<p style="color:green;">About D&D</p>
-
-  <img src="https://i.imgflip.com/1smpla.jpg" alt="developers" style="width:500px;height:400px;">
+  <h1><span><%= forms %></span></h1>
+  <form>
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+  </form>
 
   </div>
   </div>
